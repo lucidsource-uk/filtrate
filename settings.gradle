@@ -1,0 +1,5 @@
+rootProject.name = 'filtrate'
+
+include("filtrate-api")
+include("filtrate-apt")
+include("filtrate-test")
