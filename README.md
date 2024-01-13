@@ -1,4 +1,6 @@
 # Filtrate - compile time API filters
+[![](https://jitpack.io/v/uk.co.lucidsource/filtrate.svg)](https://jitpack.io/#uk.co.lucidsource/filtrate)
+
 Filtrate is an annotation processor which generates filter criteria DTOs for use in API dialects such as REST, or GraphQL.
 
 ### Adding filtrate
