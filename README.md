@@ -1,6 +1,24 @@
 # filtrate
 Filtrate is an annotation processor which generates filter criteria DTOs for use in API dialects such as REST, or GraphQL
 
+## Usage
+
+```gradle
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+
+
+```gradle
+dependencies {
+        implementation 'uk.co.lucidsource:filtrate:main-SNAPSHOT'
+}
+```
 
 ```java
 @Filter
